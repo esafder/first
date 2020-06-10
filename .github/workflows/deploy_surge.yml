@@ -20,5 +20,5 @@ jobs:
     - name: install surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./ esafder.surge.sh --token ${(secrets.SURGE_TOKEN)}
+      run: surge ./ esafder.surge.sh --token cc51cb46a047fd93f1b2cb206de399eb
 
